@@ -1,0 +1,56 @@
+#+title: Clase 1, Que es Java?
+
+Java es un lenguaje desarrollado por Sun Systems, lanzado por los 90, los cabecillas de este desarrollo eran:
+ - James Gosling
+ - Bill Joy
+
+Java pertenece a una gran parte de los dispositivos Android: Celulares, relojes, televisores, autos.
+También existe a una gama de juegos:
+ - Quake 2: fue migrado a Java en su época.
+ - El famoso juego Minecraft, desarrollado en este lenguaje.
+
+Si bien estos ejemplos son bastante simples, quiero demostrar que tan presente está Java en nuestras vidas, desde un dispositivo, hasta en los videojuegos (entre otras).
+
+Muchas empresas decidieron utilizar Java dada por su fácil adopción del momento en la época que fue estrenado + la versatilidad que ofrecía en la época (principalmente para desarrollo de aplicaciones Web).
+
+Pero dicho todo ésto, ¿Qué necesito para aprender a crear proyectos en Java? Bueno, para ésto necesitas primero comprender qué es Java: Si bien es un lenguaje de programación
+también es un ecosistema, el cuál no solamente en ejecutar un programa, sino (por ahora le diremos así), es una aplicación que ejecuta aplicaciones. Normalmente cuando uno ejecuta una app,
+Ésta llega y se ejecuta, pero para Java es distinto: Debes tener instalado Java para crear y ejecutar aplicaciones de éste.
+
+Java posee dos herramientas: JDK y JRE.
+ - JDK: Java development kit, es como lo dice, la suite para desarrollo de aplicaciones. Con ésta herramienta base podremos desarrollar y crear nuestras aplicaciones.
+ - JRE: Java Runtime environment: Como lo dice, éste es un ambiente de ejecución (environment runtime), para que las aplicaciones Java ejecuten las órdenes. Esta viene incluída en el JDK o se puede instalar por separado.
+
+Proceso de instalación:
+
+/aquí va el proceso de instalación/.
+
+Una vez tenemos instalados nuestra JDK procedo a explicar esto importante:
+
+Dentro de nuestros archivos para que Java lo interprete, estos son "archivo.java", dentro de el anterior mencionado, van todas nuestras indicaciones,
+que a partir de ahora conoceremos como *Algoritmos*. Un algoritmo es una serie de indicaciones, ejemplo simple de un algoritmo: Una receta de cocina.
+
+Dentro de nuestro archivo daremos nuestros algoritmos y una vez terminado compilamos nuestro programa.
+¿Pero qué es compilar? Cómo lo dice, compilar es /recolectar/ una serie de elementos, para generar un producto deseado, han escuchado los compilados de música?
+Aquí es algo similar pero para programación.
+
+Dicho ésto, ¿Cómo funciona Java realmente? Java es un lenguaje compilado e interpretado, a diferencia de otros lenguajes que sólo son compilados y otros sólo son interpretados.
+Lo _extraño_ de Java, es éste punto de inflexión que lo ha mantenido desde sus inicios. Explicaré paso a paso lo que es el ecosistema Java:
+ - Escribes un programa que se guarda en un archivo con extensión .java
+ - Éste archivo es *compliado* a través del JDK.
+ - Una vez creado este compilado, lo vamos a querer ejecutar, por lo cuál necesitaremos el JRE.
+ - El JRE ejecuta este compilado y qué hace técnicamente?
+   - Abre este archivo, lee las directrices internas y mientras va leyendo, éstas órdenes van siendo ejecutadas.
+ - Finalmente el programa finaliza su ejecución.
+
+/aquí debería ir un dibujo de cómo funciona el intérprete y el archivo java/
+
+En la ejecución el JRE es un intérprete, qué quiere decir esto? Qué toma un compilado entendible para lo que conocemos como Java y éste se ejecute.
+Los archivos se compilan dentro de un .jar (algunos casos .war o .ear, dependiendo del negocio, eso podemos verlo más adelante). y dentro de éste .jar
+conviven otros archivos, qué son los que lee nuestro JRE; estos archivos son conocidos como /bytecode/ lo cuál se traduce a una serie de pasos, a ejecutar,
+para que se logre el objetivo deseado con el programa creado.
+Ahora nos preguntamos todos: ¿Por qué quiero tomar un programa, envolverlo dentro una compresión y luego se ejecute en otra parte?
+Y mi respuesta es: La idea principal de Java es que fuera portable y llegase dónde llegase, se pudiera ejecutar sin problema alguno, ésto con una serie de
+requisitos antes de que sea ejecutado, y el único requisito es: Tener una versión de Java instalada en el computador dónde se irá a ejecutar deseado programa.Ahora nos preguntamos todos: ¿Por qué quiero tomar un programa, envolverlo dentro una compresión y luego se ejecute en otra parte?
+Y mi respuesta es: La idea principal de Java es que fuera portable y llegase dónde llegase, se pudiera ejecutar sin problema alguno, ésto con una serie de
+requisitos antes de que sea ejecutado, y el único requisito es: Tener una versión de Java instalada en el computador dónde se irá a ejecutar deseado programa.
